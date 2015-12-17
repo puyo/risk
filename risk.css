@@ -1,0 +1,13 @@
+body, html { width: 100%; height: 100%; padding: 0; margin: 0; }
+
+/*
+.board { width: 100%; height: 100%; }
+.board svg { width: 100%; height: 100%; }
+ */
+.board svg { display: block; }
+.board .country,
+.board .label { cursor: pointer; }
+.board .country { fill-opacity: 1; }
+.board .country.hi { stroke: rgb(50, 100, 50); fill: rgb(100, 200, 100); fill-opacity: 1; }
+.board .country.attacked { stroke: rgb(100, 50, 50); fill: rgb(200, 100, 100); fill-opacity: 1; }
+
